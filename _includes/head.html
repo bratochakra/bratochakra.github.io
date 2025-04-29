@@ -43,18 +43,55 @@
       color: #784e51 !important;
     }
 
-    /* Override Bootstrap styles to preserve horizontal slider */
+    /* Navigation styles */
     .navbar {
       display: flex !important;
       flex-direction: row !important;
       flex-wrap: nowrap !important;
-      white-space: nowrap !important;
+      padding: 0.5rem 1rem !important;
     }
-    .navbar-nav {
-      flex-direction: row !important;
+
+    /* Desktop styles */
+    @media (min-width: 768px) {
+      .navbar-nav {
+        flex-direction: row !important;
+      }
+      .nav-item {
+        display: inline-block !important;
+      }
     }
-    .nav-item {
-      display: inline-block !important;
+
+    /* Mobile styles */
+    @media (max-width: 767px) {
+      .navbar-collapse {
+        position: absolute !important;
+        top: 100% !important;
+        right: 0 !important;
+        width: auto !important;
+        min-width: 200px !important;
+        background-color: #f8f9fa !important;
+        padding: 0.5rem !important;
+        border-radius: 0.25rem !important;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.1) !important;
+        z-index: 1000 !important;
+      }
+      .navbar-nav {
+        flex-direction: column !important;
+        margin: 0 !important;
+      }
+      .nav-item {
+        display: block !important;
+        width: 100% !important;
+        margin: 0 !important;
+      }
+      .nav-item a {
+        padding: 0.5rem 1rem !important;
+        border-radius: 0.25rem !important;
+        white-space: nowrap !important;
+      }
+      .nav-item a:hover {
+        background-color: #e9ecef !important;
+      }
     }
   </style>
 

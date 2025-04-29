@@ -111,6 +111,89 @@ firstp {
 #picid img { margin: 6px 3px 60px 6px; border-radius:1%; box-shadow: 2px 2px 5px #888888 }
 #gridid .row { margin-bottom: 24px; }
 
+/* Mobile responsive styles */
+@media (max-width: 767px) {
+  .container-fluid {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  
+  #gridid .row {
+    margin-bottom: 15px;
+  }
+  
+  /* Team photos on mobile */
+  #gridid img, 
+  .jumbotron img,
+  #picid img {
+    max-width: 150px !important;
+    width: auto !important;
+    height: auto !important;
+    margin: 10px auto !important;
+    display: block !important;
+  }
+
+  .col-sm-4 {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  
+  p, .byline {
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    hyphens: auto;
+  }
+
+  /* PI Info box fixes */
+  .jumbotron {
+    padding: 15px !important;
+    margin: 10px 0 !important;
+  }
+
+  .jumbotron .row {
+    margin: 0 !important;
+  }
+
+  .jumbotron .col-sm-2,
+  .jumbotron .col-sm-9 {
+    padding: 10px !important;
+  }
+
+  .jumbotron p {
+    margin: 0 !important;
+    padding: 0 10px !important;
+    text-align: left !important;
+  }
+
+  .jumbotron h3 {
+    margin: 10px 0 !important;
+    padding: 0 10px !important;
+    font-size: 2.0rem !important;
+  }
+
+  .jumbotron > div > div {
+    margin: 0 !important;
+  }
+
+  /* Social icons alignment */
+  .jumbotron div[style*="margin-top: 25px"] {
+    margin-left: -0.2em !important;
+    padding-left: 0px !important;
+    display: flex !important;
+    gap: 5px !important;
+  }
+
+  .jumbotron .ai {
+    margin-right: 0 !important;
+  }
+
+  /* Hide abstract button on mobile */
+  .btn-abstract,
+  .paper-highlight a[href*="#abstract"],
+  .well-abstract {
+    display: none !important;
+  }
+}
 
 /* Grid overrides */
 .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-5, .col-sm-6,
