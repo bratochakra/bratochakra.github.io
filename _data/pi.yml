@@ -1,0 +1,24 @@
+- name: "Brato Chakrabarti (ব্রত চক্রবর্তী)"
+  photo: 0me.jpg
+  info: "I am an Assistant Professor at the [International Center for Theoretical Sciences (ICTS)](https://www.icts.res.in/), Bengaluru. \
+  I am in the [Biological Physics group](https://www.icts.res.in/research/biological-physics) and associated with the [Fluid Dynamics group](https://www.icts.res.in/research/fluid-dynamics) at ICTS. \ 
+  I am also affiliated with the [Physics of Life@ICTS-TIFR](https://www.icts.res.in/research/physics-life) program. \
+  If you would like to collaborate or discuss, please feel free to reach out!"
+  email: brato.chakrabarti@icts.res.in
+  scholar: https://scholar.google.com/citations?user=Ru8yUTYAAAAJ&hl=en
+  cv: /cv/CV.pdf
+  # Change the items in "education" you have (up to 6)
+  education:
+    [ "(2024) Research Fellow, Center for Computational Biology, Flatiron Institute",
+      "(2019) Ph.D. Applied Mechanics, University of California, San Diego",
+      "(2015) M.S.  Engineering Mechanics, Virginia Tech",
+      "(2013) B.E.  Mechanical Engineering, Jadavpur University",
+    ]
+
+  # educationshort:
+  #   ["(1942) Ph.D. Physics, Princeton", "(1939) B.S. Physics, MIT"]
+
+
+#  \n\nI received a B.E. in Mechanical Engineering from Jadavpur University, India, in 2009,  \ 
+#   an M.S. in Engineering Mechanics from Virginia Tech, USA, in 2015, and a Ph.D. in Applied Mechanics from the University of California, San Diego, USA, in 2019. \ 
+#   I then worked as a Research Fellow in the Center for Computational Biology at the Flatiron Institute, New York, USA, until January 2024."

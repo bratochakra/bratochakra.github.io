@@ -1,0 +1,68 @@
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
+  <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+  
+  <!-- Website Icon -->
+  <link rel="icon" type="image/png" href="{{ "/icon.png" | prepend: site.baseurl | prepend: site.url }}">
+  <link rel="alternate icon" type="image/png" href="{{ "/icon.png" | prepend: site.baseurl | prepend: site.url }}">
+  <link rel="shortcut icon" type="image/png" href="{{ "/icon.png" | prepend: site.baseurl | prepend: site.url }}">
+  <link rel="apple-touch-icon" href="{{ "/icon.png" | prepend: site.baseurl | prepend: site.url }}">
+  
+  <!-- Bootstrap CSS (Collapse only) -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  
+  <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl | prepend: site.url}}">
+  <link rel="stylesheet" href="{{ "/css/progress.css" | prepend: site.baseurl | prepend: site.url}}">
+  <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+
+  <!-- Font Awesome 6+ with outline style -->
+  <link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+  />
+  <link 
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/regular.min.css"
+  />
+
+  <!-- Academicons with outline style -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+
+  <!-- Force all your icons to black -->
+  <style>
+    /* targets Font-Awesome solid, regular, plus Academicons */
+    .fas, .far, .fa, .ai {
+      color: #784e51 !important;
+    }
+    /* if you're using Material Icons too: */
+    .material-icons, 
+    .material-icons-outlined {
+      color: #784e51 !important;
+    }
+
+    /* Override Bootstrap styles to preserve horizontal slider */
+    .navbar {
+      display: flex !important;
+      flex-direction: row !important;
+      flex-wrap: nowrap !important;
+      white-space: nowrap !important;
+    }
+    .navbar-nav {
+      flex-direction: row !important;
+    }
+    .nav-item {
+      display: inline-block !important;
+    }
+  </style>
+
+  <!-- Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+{% if jekyll.environment == 'production' %}
+{% include analytics.html %}
+{% endif %}
+
+</head>

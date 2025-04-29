@@ -1,0 +1,8 @@
+---
+layout: page
+title: PDF Viewer
+permalink: /pdf_viewer.html
+---
+
+{% assign pdf_url = page.url | split: "?" | last | split: "=" | last %}
+{% include pdf_wrapper.html pdf_url=pdf_url %} 

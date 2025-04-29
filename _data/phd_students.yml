@@ -1,0 +1,27 @@
+- name: Naveen Kumar D
+  photo: Naveen.jpg
+  info:  "PhD Student, Started 2025"
+  advisor: 
+  email: naveen.kummard[at]icts.res.in
+  website: https://www.icts.res.in/people/naveen-kumar-d
+
+- name: Anjali Kundalpady
+  photo: Anjali.jpg
+  info:  "PhD Student, Started 2025"
+  advisor: (Co-advised by Prof. Rama Govindarajan)
+  email: anjali.kundalpady[at]icts.res.in
+  website: https://www.icts.res.in/people/anjali-kundalpady
+
+- name: Seema
+  photo: Seema.jpg
+  info:  "PhD Student, Started 2025"
+  advisor: (Co-advised by Prof. Anupam Kundu)
+  email: seema.s[at]icts.res.in
+  website: https://www.icts.res.in/people/seema-chahal
+
+- name: Devadevan M M
+  photo: Devadevan.jpg
+  info:  "PhD Student, Started 2025"
+  advisor: 
+  email: devadevan.mm[at]icts.res.in
+  website: https://www.icts.res.in/people/devadevan-m-m
