@@ -14,6 +14,7 @@
   display: "PRX Life"
   doi: "https://doi.org/10.1103/PRXLife.3.023007"
   thumbnail: "/images/papers/16.png"
+  pdf: "/papers/16.pdf"
   abstract: "This work probes the role of cell geometry in orienting self-organized fluid flows in the late-stage Drosophila oocyte. Recent theoretical work has shown that a model, which relies only on hydrodynamic interactions of flexible, cortically anchored microtubules and the mechanical loads from molecular motors moving upon them, is sufficient to generate observed flows. While the emergence of flows has been studied in spheres, oocytes change shape during streaming, and it was unclear how robust these flows are to the geometry of the cell. Here we use biophysical theory and computational analysis to investigate the role of geometry and find that the axis of rotation is set by the shape of the domain and that the flow is robust to biologically relevant perturbations of the domain shape. Using live imaging and three-dimensional flow reconstruction, we test the predictions of the theory/simulation, finding consistency between the model and live experiments, further demonstrating a geometric dependence on flow direction in late-stage Drosophila oocytes."
 
 - title: "Cytoplasmic stirring by active carpets"
