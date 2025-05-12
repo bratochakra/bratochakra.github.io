@@ -1,8 +1,8 @@
-PWD /Users/brato/Simons Foundation Dropbox/Brato Chakrabarti/Job_Applications/CV_jobapply/website
+PWD /Users/bratoicts/Documents/codebase/web_icts/bratochakra.github.io/cv
 INPUT /usr/local/texlive/2024/texmf.cnf
 INPUT /usr/local/texlive/2024/texmf-dist/web2c/texmf.cnf
 INPUT /usr/local/texlive/2024/texmf-var/web2c/pdftex/pdflatex.fmt
-INPUT /Users/brato/Simons Foundation Dropbox/Brato Chakrabarti/Job_Applications/CV_jobapply/website/CV_website.tex
+INPUT /Users/bratoicts/Documents/codebase/web_icts/bratochakra.github.io/cv/CV_website.tex
 OUTPUT CV_website.log
 INPUT ./res.cls
 INPUT res.cls
