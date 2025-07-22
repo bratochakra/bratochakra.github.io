@@ -1,6 +1,15 @@
+- title: "The physical consequences of sperm gigantism"
+  authors: "Imran Alsous, Jasmin and Chakrabarti, Brato and Palmer, Bryce and Shelley, Michael"
+  year: In Review
+  date: "2025-07-22"
+  display: "ArXiv"
+  doi: "https://doi.org/10.48550/arXiv.2507.14567"
+  thumbnail: "/images/papers/18.png"
+  abstract: "The male fruit fly produces ~1.8 mm long sperm, thousands of which can be stored until mating in a ~200 micron sac, the seminal vesicle. While the evolutionary pressures driving such extreme sperm (flagellar) lengths have long been investigated, the physical consequences of their gigantism are unstudied. Through high-resolution three-dimensional reconstructions of in vivo sperm morphologies and rapid live imaging, we discovered that stored sperm are organized into a dense and highly aligned state. The packed flagella exhibit system-wide collective 'material' flows, with persistent and slow-moving topological defects; individual sperm, despite their extraordinary lengths, propagate rapidly through the flagellar material, moving in either direction along material director lines. To understand how these collective behaviors arise from the constituents' nonequilibrium dynamics, we conceptualize the motion of individual sperm as topologically confined to a reptation-like tube formed by its neighbors. Therein, sperm propagate through observed amplitude-constrained and internally driven flagellar bending waves, pushing off counter-propagating neighbors. From this conception, we derive a continuum theory that produces an extensile material stress that can sustain an aligned flagellar material. Experimental perturbations and simulations of active elastic filaments verify our theoretical predictions. Our findings suggest that active stresses in the flagellar material maintain the sperm in an unentangled, hence functional state, in both sexes, and establish giant sperm in their native habitat as a novel and physiologically relevant active matter system."
+  
 - title: "Breathe in, breathe out: Bacterial density determines collective migration in aerotaxis"
   authors: "Ghosh, Dipanjan and Chakrabarti, Brato and Cheng, Xiang"
-  year: 2025
+  year: In Review
   date: "2025-04-02"
   display: "bioRxiv"
   doi: "10.1101/2025.04.02.646741"
