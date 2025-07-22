@@ -13,7 +13,7 @@ permalink: /allnews.html
       </div>
       {% if news.image %}
       <div style="margin-top: 15px;">
-        <img src="{{ news.image }}" alt="News image" style="max-width: 100%; border-radius: 5px; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
+        <img src="{{ site.url }}{{ site.baseurl }}/images/news/{{ news.image }}" alt="News image" style="max-width: 100%; border-radius: 5px; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
       </div>
       {% endif %}
     </div>
