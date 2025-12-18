@@ -27,8 +27,12 @@ Our research is driven by the curiosity to explore problems in biological fluid 
 {: style="font-family: 'Avenir Light'; text-align: justify"}
 Check our [Publication page]({{ site.url }}{{ site.baseurl }}/publications/) to know more about ongoing work.​​
 
-**For prospective students**{: style="color:rgb(137, 54, 54); font-size: 1.3em; font-family: 'Avenir'"}
+<!-- **For prospective students**{: style="color:rgb(137, 54, 54); font-size: 1.3em; font-family: 'Avenir'"}
 
 {: style="font-family: 'Avenir Light'; text-align: justify; font-size: 1.05em"}
-I am looking to hire a project assistant to work on exciting research problems pursued in the group! The potential project is flexible. If you have a background in numerical methods or computational fluid dynamics or molecular dynamics (using HOOMD-Blue/LAMMPS) then please reach out to me with your CV. 
+I am looking to hire a project assistant to work on exciting research problems pursued in the group! The potential project is flexible. If you have a background in numerical methods or computational fluid dynamics or molecular dynamics (using HOOMD-Blue/LAMMPS) then please reach out to me with your CV.  -->
 
+<!-- ​I welcome undergraduate students to apply for the [SN Bhatt summer program](https://www.icts.res.in/academic/summer-research-program) or the [long-term visiting student program](https://www.icts.res.in/academic/visiting-students-program). Prospective Ph.D. students should apply directly through the [ICTS graduate program](https://www.icts.res.in/academic/graduate-program).
+
+{: style="font-family: 'Avenir Light'; text-align: justify; font-size: 1.05em"}
+I have openings for postdocs in my group! If interested, please write to me with a summary of your work and a CV. -->

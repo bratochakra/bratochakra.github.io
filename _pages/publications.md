@@ -43,6 +43,10 @@ permalink: /publications/
   text-align: justify;
   padding: 10px 0;
 }
+.collapse {
+  position: relative;
+  z-index: 0;
+}
 .paper-highlight {
   color: #4a90e2;
   font-style: italic;
@@ -54,6 +58,31 @@ permalink: /publications/
 }
 .paper-highlight span {
   flex-shrink: 0;
+}
+.paper-highlight ul {
+  display: inline;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  line-height: 1.2;
+}
+.paper-highlight li {
+  display: inline;
+  margin: 0;
+  padding: 0;
+  margin-right: 10px;
+}
+.paper-highlight li::before {
+  content: "• ";
+  margin-right: 3px;
+}
+.paper-highlight li:last-child {
+  margin-right: 0;
+}
+.paper-highlight p {
+  margin: 0;
+  padding: 0;
+  display: inline;
 }
 .paper-highlight a {
   color: #4a90e2;
@@ -80,9 +109,10 @@ permalink: /publications/
   margin-left: 15px;
   max-width: 150px;
   border-radius: 4px;
-  height: 100%;
+  height: auto;
   display: flex;
-  align-items: center;
+  align-items: flex-start;
+  z-index: 1;
 }
 .paper-thumbnail img {
   width: 100%;
@@ -192,7 +222,7 @@ a .btn-doi:hover {
     {% endfor %}
     </span><br/>
     <span class="paper-journal"><em>{{ publi.display }}</em>, {{ publi.year }}</span><br/>
-    {% if publi.highlight %}<div class="paper-highlight"><span>★</span> {{ publi.highlight | markdownify }}</div>{% endif %}
+    {% if publi.highlight %}<div class="paper-highlight">{% unless publi.highlight_star == false %}<span>★</span> {% endunless %}{{ publi.highlight | markdownify }}</div>{% endif %}
     {% if publi.abstract %}<button class="btn-doi" data-bs-toggle="collapse" data-bs-target="#{{publi.doi}}">ABSTRACT</button>{% endif %}
     {% if publi.arxiv %}<a href="https://arxiv.org/abs/{{ publi.arxiv }}" target="_blank"><button class="btn-arxiv">ARXIV</button></a>{% endif %}
     {% if publi.pdf %}<a href="{{ publi.pdf }}" target="_blank"><button class="btn-pdf">PDF</button></a>{% endif %}

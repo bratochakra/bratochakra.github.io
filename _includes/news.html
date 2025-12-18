@@ -3,7 +3,7 @@
 
   {% assign displayed_count = 0 %}
   {% for news in site.data.news %}
-    {% if news.image == nil and displayed_count < 5 %}
+    {% if news.text != nil and news.text != "" and displayed_count < 5 %}
       <div class="news-item" style="margin-bottom: 15px; padding-bottom: 15px; border-bottom: 1px solid #e9ecef;">
         <span style="color: #333; font-size: 0.85em; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-weight: 400;">{{ news.date }}</span>
         <div style="margin: 5px 0; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-weight: 300; color: #666; font-size: 0.9em;">

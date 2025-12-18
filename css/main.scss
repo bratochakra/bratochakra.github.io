@@ -188,9 +188,7 @@ firstp {
   }
 
   /* Hide abstract button on mobile */
-  .btn-abstract,
-  .paper-highlight a[href*="#abstract"],
-  .well-abstract {
+  button.btn-doi[data-bs-toggle="collapse"] {
     display: none !important;
   }
 }

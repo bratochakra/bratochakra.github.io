@@ -38,7 +38,7 @@ permalink: /contact/
       text-align: left;
       white-space: nowrap;
     ">
-    <span style="margin-right: 15px;" title="Office"><i class="fas fa-building fa-lg"></i> A-202</span><br/>
+    <span style="margin-right: 15px;" title="Office"><i class="fas fa-building fa-lg"></i> H-103</span><br/>
     <span style="margin-right: 15px;" title="Phone"><i class="fas fa-phone fa-lg"></i> +91 - 80 - 4653 6225</span><br/>
     <span style="margin-right: 15px;" title="Email"><i class="far fa-envelope fa-lg"></i> brato.chakrabarti[at]icts.res.in</span>
 </p>

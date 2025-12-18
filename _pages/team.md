@@ -63,7 +63,7 @@ permalink: /team/
   <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" width="105%" style="max-width:300px; margin-left:-2px"/>
 </div>
 <div class="col-sm-4 col-xs-12">
-<h3 style="font-family: 'Avenir', sans-serif; margin-left: -1em; font-size: 1.2em;">{{ member.name }}</h3>
+<h3 style="font-family: 'Avenir', sans-serif; margin-left: -1em; font-size: 1.2em;">{% if member.website %}<a href="{{ member.website }}" target="_blank" style="color: inherit; text-decoration: none;">{{ member.name }}</a>{% else %}{{ member.name }}{% endif %}</h3>
 <p style="
       font-family:  'Avenir Light', sans-serif;
       font-size:    1.05em;

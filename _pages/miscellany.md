@@ -27,6 +27,7 @@ permalink: /miscellany/
 <div class="jumbotron" style="margin: 0 auto; padding: 5px; background-color: white; border: none; box-shadow: none;">
   <h2 style="color:rgb(137, 54, 54); font-family: 'Avenir'; margin-bottom: 0.5em;">Teaching</h2>
   <ul style="font-family: 'Avenir Light', sans-serif; font-size: 1.1em; line-height: 1.1; list-style-type: disc; padding-left: 20px;">
+    <li style="margin-bottom: 1.5em;">Advanced Fluid Dynamics (Fall 2025)</li>
     <li style="margin-bottom: 1.5em;">Fluid Dynamics and Elasticity (Fall 2024)</li>
     <li style="margin-bottom: 1.5em;">Biological fluid dynamics and active suspensions (Spring 2025)</li>
   </ul>

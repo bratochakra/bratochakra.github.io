@@ -1,9 +1,30 @@
+# - title: "Reversibility, Chaos, and Attractors in Periodically Sheared Elastic Filaments"
+#   authors: "Bonacci, Francesco and Chakrabarti, Brato and Du Roure, Olivia and Lindner, Anke and Saintillan, David"
+#   year: 
+#   date: "2025-12-25"
+#   display: In Review
+#   #doi: "https://doi.org/10.48550/arXiv.2508.17879"
+#   #thumbnail: "/images/papers/19.png"
+#   #abstract: "Active Stokesian suspensions are conventionally understood to generate dipolar stresses that destabilize aligned states in the bulk and drive system-wide spatiotemporally chaotic flows. Here, we report dynamics in suspensions of torque-driven spinning chiral particles that exhibit a distinct and previously unrecognized route to collective dynamics. Using a mean-field kinetic theory, stability analysis, and nonlinear simulations, we demonstrate how flows driven by torque monopoles and self-propulsion resulting from microscopic chirality drive chaotic flows in three dimensions. Unlike the well-known alignment instability of dipolar active matter, the present dynamics is intrinsically tied to self-propulsion and relies on the emergent coupling between nematic and polar order. Our results establish a novel route to pattern formation, suggest strategies for designing torque-driven active suspensions, and provide a mechanistic framework to probe the rheology of chiral fluids."
+
+
+- title: "Hydrodynamic instabilities in driven chiral suspensions"
+  authors: "Chahal, Seema and Chakrabarti, Brato"
+  year: In Review
+  date: "2025-08-25"
+  display: "ArXiv"
+  doi: "https://doi.org/10.48550/arXiv.2508.17879"
+  thumbnail: "/images/papers/19.png"
+  abstract: "Active Stokesian suspensions are conventionally understood to generate dipolar stresses that destabilize aligned states in the bulk and drive system-wide spatiotemporally chaotic flows. Here, we report dynamics in suspensions of torque-driven spinning chiral particles that exhibit a distinct and previously unrecognized route to collective dynamics. Using a mean-field kinetic theory, stability analysis, and nonlinear simulations, we demonstrate how flows driven by torque monopoles and self-propulsion resulting from microscopic chirality drive chaotic flows in three dimensions. Unlike the well-known alignment instability of dipolar active matter, the present dynamics is intrinsically tied to self-propulsion and relies on the emergent coupling between nematic and polar order. Our results establish a novel route to pattern formation, suggest strategies for designing torque-driven active suspensions, and provide a mechanistic framework to probe the rheology of chiral fluids."
+
 - title: "The physical consequences of sperm gigantism"
-  authors: "Imran Alsous, Jasmin and Chakrabarti, Brato and Palmer, Bryce and Shelley, Michael"
+  authors: "Imran Alsous, Jasmin and Chakrabarti, Brato and Palmer, Bryce and Shelley, Michael J"
   year: In Review
   date: "2025-07-22"
   display: "ArXiv"
   doi: "https://doi.org/10.48550/arXiv.2507.14567"
+  highlight: "\n- [How do giant sperm avoid getting tangled up?](https://www.science.org/content/article/how-do-giant-sperm-avoid-getting-tangled)\n- [Here's how fruit flies' giant sperm squeeze into tight spaces](https://www.sciencenews.org/article/giant-sperm-fruit-fly-packing)"
+  highlight_star: false
   thumbnail: "/images/papers/18.png"
   abstract: "The male fruit fly produces ~1.8 mm long sperm, thousands of which can be stored until mating in a ~200 micron sac, the seminal vesicle. While the evolutionary pressures driving such extreme sperm (flagellar) lengths have long been investigated, the physical consequences of their gigantism are unstudied. Through high-resolution three-dimensional reconstructions of in vivo sperm morphologies and rapid live imaging, we discovered that stored sperm are organized into a dense and highly aligned state. The packed flagella exhibit system-wide collective 'material' flows, with persistent and slow-moving topological defects; individual sperm, despite their extraordinary lengths, propagate rapidly through the flagellar material, moving in either direction along material director lines. To understand how these collective behaviors arise from the constituents' nonequilibrium dynamics, we conceptualize the motion of individual sperm as topologically confined to a reptation-like tube formed by its neighbors. Therein, sperm propagate through observed amplitude-constrained and internally driven flagellar bending waves, pushing off counter-propagating neighbors. From this conception, we derive a continuum theory that produces an extensile material stress that can sustain an aligned flagellar material. Experimental perturbations and simulations of active elastic filaments verify our theoretical predictions. Our findings suggest that active stresses in the flagellar material maintain the sperm in an unentangled, hence functional state, in both sexes, and establish giant sperm in their native habitat as a novel and physiologically relevant active matter system."
   
