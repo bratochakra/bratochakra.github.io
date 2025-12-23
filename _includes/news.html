@@ -1,12 +1,12 @@
-<div class="well" style="background-color: #f8f9fa; padding: 20px; border-radius: 8px; margin: 20px 0; border: 1px solid #e9ecef;">
-  <h4 style="color: rgb(203, 109, 109); font-family: 'Avenir', 'Helvetica Neue', Helvetica, Arial, sans-serif; font-weight: 600; margin-top: 0; font-size: 1.2em; text-align: center;">Latest News</h4>
+<div class="well" style="background-color: #f8f9fa; padding: 15px; border-radius: 8px; margin: 20px 0; border: 1px solid #e9ecef;">
+  <h4 style="color: rgb(203, 109, 109); font-family: 'Avenir', 'Helvetica Neue', Helvetica, Arial, sans-serif; font-weight: 600; margin-top: 0; margin-bottom: 10px; font-size: 1.1em; text-align: center;">Latest News</h4>
 
   {% assign displayed_count = 0 %}
   {% for news in site.data.news %}
-    {% if news.text != nil and news.text != "" and displayed_count < 5 %}
-      <div class="news-item" style="margin-bottom: 15px; padding-bottom: 15px; border-bottom: 1px solid #e9ecef;">
-        <span style="color: #333; font-size: 0.85em; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-weight: 400;">{{ news.date }}</span>
-        <div style="margin: 5px 0; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-weight: 300; color: #666; font-size: 0.9em;">
+    {% if news.text != nil and news.text != "" and displayed_count < 3 %}
+      <div class="news-item" style="margin-bottom: 10px; padding-bottom: 10px; border-bottom: 1px solid #e9ecef;">
+        <span style="color: #333; font-size: 0.8em; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-weight: 400;">{{ news.date }}</span>
+        <div style="margin: 3px 0; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-weight: 300; color: #666; font-size: 0.85em; line-height: 1.4;">
           {{ news.text | markdownify }}
         </div>
       </div>
@@ -14,7 +14,7 @@
     {% endif %}
   {% endfor %}
 
-  <div style="text-align: right; margin-top: 15px;">
-    <a href="{{ site.url }}{{ site.baseurl }}/allnews.html" style="color: #0066cc; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-weight: 300;">... see all News</a>
+  <div style="text-align: right; margin-top: 10px;">
+    <a href="{{ site.url }}{{ site.baseurl }}/allnews.html" style="color: #0066cc; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-weight: 300; font-size: 0.9em;">... see all News</a>
   </div>
 </div>

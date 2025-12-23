@@ -212,12 +212,13 @@ a .btn-doi:hover {
     <strong class="paper-title">{{ paper_number }}. {{ publi.title }}</strong><br/>
     <span class="paper-authors">
     {% assign authors = publi.authors | split: " and " %}
+    {% assign total_authors = authors | size %}
     {% for author in authors %}
       {% assign name_parts = author | split: ", " %}
       {% if name_parts.size == 2 %}
-        {{ name_parts[1] }} {{ name_parts[0] }}{% if forloop.last %}{% elsif forloop.rindex0 == 1 %}, and {% else %}, {% endif %}
+        {{ name_parts[1] }} {{ name_parts[0] }}{% if forloop.last %}{% elsif forloop.rindex0 == 1 %}{% if total_authors == 2 %} and {% else %}, and {% endif %}{% else %}, {% endif %}
       {% else %}
-        {{ author }}{% if forloop.last %}{% elsif forloop.rindex0 == 1 %}, and {% else %}, {% endif %}
+        {{ author }}{% if forloop.last %}{% elsif forloop.rindex0 == 1 %}{% if total_authors == 2 %} and {% else %}, and {% endif %}{% else %}, {% endif %}
       {% endif %}
     {% endfor %}
     </span><br/>

@@ -1,0 +1,119 @@
+<div class="well gallery-box" style="background-color: #f8f9fa; padding: 15px; border-radius: 8px; margin: 20px 0; border: 1px solid #e9ecef;">
+  <h4 style="color: rgb(203, 109, 109); font-family: 'Avenir', 'Helvetica Neue', Helvetica, Arial, sans-serif; font-weight: 600; margin-top: 0; margin-bottom: 10px; font-size: 1.2em; text-align: center;">Research art</h4>
+  
+  <div id="gallery-container" style="width: 100%; height: 200px; overflow: hidden; border-radius: 5px; position: relative; background-color: #fff; margin: 0; padding: 0; line-height: 0;">
+    <!-- Images will be dynamically loaded here -->
+  </div>
+</div>
+
+<script>
+(function() {
+  var galleryContainer = document.getElementById('gallery-container');
+  if (!galleryContainer) return;
+  
+  var baseUrl = '{{ site.url }}{{ site.baseurl }}/images/gallery/';
+  var imageExtensions = ['png', 'jpg', 'jpeg', 'gif', 'webp'];
+  var validImages = [];
+  var imagesToCheck = [];
+  
+  // First, try images from YAML file if available
+  {% if site.data.gallery %}
+    {% for item in site.data.gallery %}
+      imagesToCheck.push('{{ item.image }}');
+    {% endfor %}
+  {% endif %}
+  
+  // Also try common numbered patterns (01.png through 99.png, etc.)
+  for (var i = 1; i <= 99; i++) {
+    var numStr = (i < 10 ? '0' + i : i.toString());
+    imageExtensions.forEach(function(ext) {
+      imagesToCheck.push(numStr + '.' + ext);
+    });
+  }
+  
+  // Remove duplicates
+  imagesToCheck = [...new Set(imagesToCheck)];
+  
+  var checkedCount = 0;
+  var totalToCheck = imagesToCheck.length;
+  
+  // Check each potential image
+  imagesToCheck.forEach(function(imageName) {
+    var testImg = new Image();
+    testImg.onload = function() {
+      // Image exists, create img element
+      var img = document.createElement('img');
+      img.src = baseUrl + imageName;
+      img.alt = 'Gallery image';
+      img.className = 'gallery-image';
+      img.style.cssText = 'width: 100%; height: 200px; object-fit: cover; display: none; border-radius: 5px; margin: 0; padding: 0; vertical-align: top;';
+      galleryContainer.appendChild(img);
+      validImages.push(img);
+      checkedCount++;
+      if (checkedCount === totalToCheck) {
+        initializeGallery();
+      }
+    };
+    testImg.onerror = function() {
+      // Image doesn't exist, skip it
+      checkedCount++;
+      if (checkedCount === totalToCheck) {
+        initializeGallery();
+      }
+    };
+    testImg.src = baseUrl + imageName;
+  });
+  
+  function initializeGallery() {
+    if (validImages.length === 0) {
+      galleryContainer.innerHTML = '<div style="text-align: center; padding: 80px 20px; color: #999;">No images available</div>';
+      return;
+    }
+    
+    var currentIndex = 0;
+    var shuffleInterval;
+    
+    // Shuffle array function
+    function shuffleArray(array) {
+      for (let i = array.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [array[i], array[j]] = [array[j], array[i]];
+      }
+      return array;
+    }
+    
+    // Shuffle valid images
+    validImages = shuffleArray(validImages);
+    
+    // Show first image
+    validImages[0].style.display = 'block';
+    
+    // Function to show next image
+    function showNextImage() {
+      if (validImages.length <= 1) return;
+      
+      // Hide current image
+      validImages[currentIndex].style.display = 'none';
+      
+      // Move to next image
+      currentIndex = (currentIndex + 1) % validImages.length;
+      
+      // Show next image
+      validImages[currentIndex].style.display = 'block';
+    }
+    
+    // Start shuffling every 3 seconds
+    shuffleInterval = setInterval(showNextImage, 3000);
+    
+    // Pause on hover
+    galleryContainer.addEventListener('mouseenter', function() {
+      clearInterval(shuffleInterval);
+    });
+    
+    galleryContainer.addEventListener('mouseleave', function() {
+      shuffleInterval = setInterval(showNextImage, 3000);
+    });
+  }
+})();
+</script>
+

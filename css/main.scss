@@ -122,6 +122,16 @@ firstp {
     margin-bottom: 15px;
   }
   
+  /* Hide gallery box on mobile/tablet */
+  .gallery-box {
+    display: none !important;
+  }
+  
+  /* Remove underline from active navigation on mobile */
+  .navbar-default .navbar-nav > li.active > a:after {
+    display: none !important;
+  }
+  
   /* Team photos on mobile */
   #gridid img, 
   .jumbotron img,
