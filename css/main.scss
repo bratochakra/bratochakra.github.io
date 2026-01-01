@@ -127,6 +127,11 @@ firstp {
     display: none !important;
   }
   
+  /* Hide group photo on mobile/tablet */
+  .group-photo-container {
+    display: none !important;
+  }
+  
   /* Remove underline from active navigation on mobile */
   .navbar-default .navbar-nav > li.active > a:after {
     display: none !important;
