@@ -28,7 +28,7 @@ Our research is driven by the curiosity to explore problems in biological fluid 
 Check our [Publication page]({{ site.url }}{{ site.baseurl }}/publications/) to know more about ongoing work.​​
 
 <div class="group-photo-container" style="margin-top: 30px; text-align: center;">
-  <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/group.jpg" alt="Group photo" style="max-width: 100%; height: auto; border-radius: 5px; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
+  <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/grouppic.jpg" alt="Group photo" style="max-width: 100%; height: auto; border-radius: 5px; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
   <p style="font-family: 'Avenir Light'; font-size: 0.9em; color: #666; margin-top: 10px; font-style: italic;">Current members (2025, from left): Seema, Krishnadev V, Devadevan M M, Brato Chakrabarti, Naveen Kumar D, and Anjali Kundalpady</p>
 </div>
 
