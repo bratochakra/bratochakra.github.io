@@ -1,11 +1,11 @@
-# - title: "Reversibility, Chaos, and Attractors in Periodically Sheared Elastic Filaments"
-#   authors: "Bonacci, Francesco and Chakrabarti, Brato and Du Roure, Olivia and Lindner, Anke and Saintillan, David"
-#   year: 
-#   date: "2025-12-25"
-#   display: In Review
-#   #doi: "https://doi.org/10.48550/arXiv.2508.17879"
-#   #thumbnail: "/images/papers/19.png"
-#   #abstract: "Active Stokesian suspensions are conventionally understood to generate dipolar stresses that destabilize aligned states in the bulk and drive system-wide spatiotemporally chaotic flows. Here, we report dynamics in suspensions of torque-driven spinning chiral particles that exhibit a distinct and previously unrecognized route to collective dynamics. Using a mean-field kinetic theory, stability analysis, and nonlinear simulations, we demonstrate how flows driven by torque monopoles and self-propulsion resulting from microscopic chirality drive chaotic flows in three dimensions. Unlike the well-known alignment instability of dipolar active matter, the present dynamics is intrinsically tied to self-propulsion and relies on the emergent coupling between nematic and polar order. Our results establish a novel route to pattern formation, suggest strategies for designing torque-driven active suspensions, and provide a mechanistic framework to probe the rheology of chiral fluids."
+- title: "Reversibility, Chaos, and Attractors in Periodically Sheared Elastic Filaments"
+  authors: "Bonacci, Francesco and Chakrabarti, Brato and Du Roure, Olivia and Lindner, Anke and Saintillan, David"
+  year: In Review
+  date: "2026-01-05"
+  display: "ArXiv"
+  doi: "https://doi.org/10.48550/arXiv.2601.00643"
+  thumbnail: "/images/papers/20.png"
+  abstract: "The dynamics of filaments in flow are central to understanding a wide range of biological and softmatter systems, yet their behavior under time-dependent forcing remains poorly understood. Here, we investigate the long-time dynamics of Brownian inextensible elastic filaments subjected to strong uniform oscillatory shear by combining microfluidic experiments on actin filaments with numerical simulations based on a fluctuating Euler-Bernoulli elastica model in a viscous fluid. As the oscillation period increases, irreversibility emerges from the interplay of flow-induced deformations and thermal noise. This leads to a departure from reversible, deterministic rigid-body dynamics: in this regime, the filaments cycle between nearly straight, flow-aligned conformations at full periods and buckled shapes at half periods. Owing to the time-glide symmetry of the system, two such attracting states in fact coexist with a phase shift of half a period. The system spontaneously selects one, but occasionally switches between them as a result of noise, producing intermittent transitions between apparent order and disorder. This system constitutes an experimentally accessible realization of stochastic symmetry breaking, attractor hopping, and intermittency in a minimal nonequilibrium soft-matter system, with novel implications for the design and control of soft matter systems under time-dependent flows."
 
 
 - title: "Hydrodynamic instabilities in driven chiral suspensions"
