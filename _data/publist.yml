@@ -8,15 +8,6 @@
   abstract: "The dynamics of filaments in flow are central to understanding a wide range of biological and softmatter systems, yet their behavior under time-dependent forcing remains poorly understood. Here, we investigate the long-time dynamics of Brownian inextensible elastic filaments subjected to strong uniform oscillatory shear by combining microfluidic experiments on actin filaments with numerical simulations based on a fluctuating Euler-Bernoulli elastica model in a viscous fluid. As the oscillation period increases, irreversibility emerges from the interplay of flow-induced deformations and thermal noise. This leads to a departure from reversible, deterministic rigid-body dynamics: in this regime, the filaments cycle between nearly straight, flow-aligned conformations at full periods and buckled shapes at half periods. Owing to the time-glide symmetry of the system, two such attracting states in fact coexist with a phase shift of half a period. The system spontaneously selects one, but occasionally switches between them as a result of noise, producing intermittent transitions between apparent order and disorder. This system constitutes an experimentally accessible realization of stochastic symmetry breaking, attractor hopping, and intermittency in a minimal nonequilibrium soft-matter system, with novel implications for the design and control of soft matter systems under time-dependent flows."
 
 
-- title: "Hydrodynamic instabilities in driven chiral suspensions"
-  authors: "Chahal, Seema and Chakrabarti, Brato"
-  year: In Review
-  date: "2025-08-25"
-  display: "ArXiv"
-  doi: "https://doi.org/10.48550/arXiv.2508.17879"
-  thumbnail: "/images/papers/19.png"
-  abstract: "Active Stokesian suspensions are conventionally understood to generate dipolar stresses that destabilize aligned states in the bulk and drive system-wide spatiotemporally chaotic flows. Here, we report dynamics in suspensions of torque-driven spinning chiral particles that exhibit a distinct and previously unrecognized route to collective dynamics. Using a mean-field kinetic theory, stability analysis, and nonlinear simulations, we demonstrate how flows driven by torque monopoles and self-propulsion resulting from microscopic chirality drive chaotic flows in three dimensions. Unlike the well-known alignment instability of dipolar active matter, the present dynamics is intrinsically tied to self-propulsion and relies on the emergent coupling between nematic and polar order. Our results establish a novel route to pattern formation, suggest strategies for designing torque-driven active suspensions, and provide a mechanistic framework to probe the rheology of chiral fluids."
-
 - title: "The physical consequences of sperm gigantism"
   authors: "Imran Alsous, Jasmin and Chakrabarti, Brato and Palmer, Bryce and Shelley, Michael J"
   year: In Review
@@ -34,8 +25,19 @@
   date: "2025-04-02"
   display: "bioRxiv"
   doi: "10.1101/2025.04.02.646741"
-  thumbnail: "/images/papers/17.png"
+  thumbnail: "/images/papers/19.png"
   abstract: "Bacteria navigate their environment by biasing their swimming direction toward beneficial chemicals and away from harmful ones. Out of all the chemicals bacteria respond to, oxygen stands out due to its ubiquitous presence, distinct influence on bacterial metabolism and motility, and historical role in chemotaxis research. However, a coherent understanding of bacterial motility in oxygen gradients, known as aerotaxis, remains elusive, as evidenced by conflicting reports on the migration direction of the model organism Escherichia coli in self-generated oxygen gradients. Here, by combining experiments, simulations, and theory, we provide a unified framework elucidating the fundamental biophysical principle governing bacterial aerotaxis. We track the migration of bacteria in a capillary channel under self-generated oxygen gradients and show that the migration direction depends on the overall bacterial density. At high densities, bacteria migrate toward regions of higher oxygen concentration, whereas at low densities, they move in the opposite direction. We identify a critical bacterial density at which collective migration ceases, despite the presence of oxygen gradients. A kinetic theory, based on the assumption that bacteria seek an optimal oxygen concentration, is then developed to quantitatively explain our experimental findings. We validate this hypothesis by demonstrating the biased movement of individual bacteria in a dense suspension and proposing a signaling pathway that enables this behavior. Thus, by bridging the molecular level understanding of the signaling pathway, the motility of single bacteria in oxygen gradients, and the collective population dynamics shaped by oxygen diffusion and consumption, our study provides a comprehensive understanding of aerotaxis, addressing the long-standing controversy over how bacteria response to non-uniform oxygen distributions pervasive in microbial habitats."
+
+- title: "Hydrodynamic instabilities in driven chiral suspensions"
+  authors: "Chahal, Seema and Chakrabarti, Brato"
+  year: 2026
+  date: "2026-02-26"
+  display: "Physical Review E Letters"
+  doi: "https://doi.org/10.1103/9kfb-c51g"
+  thumbnail: "/images/papers/17.png"
+  pdf: "/papers/17.pdf"
+  abstract: "Active Stokesian suspensions are conventionally understood to generate dipolar stresses that destabilize aligned states in the bulk and drive system-wide spatiotemporally chaotic flows. Here, we report dynamics in suspensions of torque-driven spinning chiral particles that exhibit a distinct and previously unrecognized route to collective dynamics. Using a mean-field kinetic theory, stability analysis, and nonlinear simulations, we demonstrate how flows driven by torque monopoles and self-propulsion resulting from microscopic chirality drive chaotic flows in three dimensions. Unlike the well-known alignment instability of dipolar active matter, the present dynamics is intrinsically tied to self-propulsion and relies on the emergent coupling between nematic and polar order. Our results establish a novel route to pattern formation, suggest strategies for designing torque-driven active suspensions, and provide a mechanistic framework to probe the rheology of chiral fluids."
+
 
 - title: "Geometric Effects in Large Scale Intracellular Flows"
   authors: "Jain, Olenka and Chakrabarti, Brato and Farhadifar, Reza and Gavis, Elizabeth R and Shelley, Michael J and Shvartsman, Stanislav Y"
