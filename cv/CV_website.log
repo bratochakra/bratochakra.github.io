@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.3.31)  5 JAN 2026 11:45
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.3.31)  2 SEP 2026 00:20
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -468,23 +468,38 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <9> on input line 112.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 112.
+
+Overfull \hbox (9.2966pt too wide) in paragraph at lines 118--119
+[]\OT1/qpl/m/n/10 Seema Cha-hal, Naveen Ku-mar D, and \OT1/qpl/b/n/10 Brato Cha
+krabarti \OT1/qpl/m/n/10 ``Emer-gent odd re-sponse in ac-tive chi-ral films'', 
+[]arXiv:2607.17717[]
+ []
+
 [1
 
 {/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/loc
 al/texlive/2024/texmf-dist/fonts/enc/dvips/tex-gyre/q-rm.enc}]
-Overfull \hbox (20.20569pt too wide) in paragraph at lines 139--140
+Overfull \hbox (20.20569pt too wide) in paragraph at lines 144--145
 []\OT1/qpl/b/n/10 Brato Chak-abarti\OT1/qpl/m/n/10 , Se-bas-tian F[]urthauer an
 d Michael J. Shel-ley, ``A mul-ti-scale bio-phys-i-cal model gives quan-tized m
 etachronal
  []
 
 [2] [3] [4]
+Underfull \hbox (badness 10000) in paragraph at lines 304--306
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 312--314
+
+ []
+
 LaTeX Font Info:    Trying to load font information for TS1+qpl on input line 3
-53.
- (/usr/local/texlive/2024/texmf-dist/tex/latex/tex-gyre/ts1qpl.fd
+24.
+(/usr/local/texlive/2024/texmf-dist/tex/latex/tex-gyre/ts1qpl.fd
 File: ts1qpl.fd 2009/09/25 v1.2 font definition file for TS1/qpl
-)
-[5{/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/tex-gyre/q-ts1.enc}
+) [5{/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/tex-gyre/q-ts1.enc}] [6
 
 
 
@@ -495,26 +510,27 @@ L3 programming layer <2024-02-20>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 11604 strings out of 474116
- 186102 string characters out of 5743682
+ 11625 strings out of 474116
+ 186264 string characters out of 5743682
  1944187 words of memory out of 5000000
  33715 multiletter control sequences out of 15000+600000
  581669 words of font info for 56 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,8n,79p,389b,630s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,8n,79p,389b,629s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb>
 </usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></
-usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></us
-r/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/
-local/texlive/2024/texmf-dist/fonts/type1/public/marvosym/marvosym.pfb></usr/lo
-cal/texlive/2024/texmf-dist/fonts/type1/public/tex-gyre/qplb.pfb></usr/local/te
-xlive/2024/texmf-dist/fonts/type1/public/tex-gyre/qplr.pfb></usr/local/texlive/
-2024/texmf-dist/fonts/type1/public/tex-gyre/qplri.pfb></usr/local/texlive/2024/
-texmf-dist/fonts/type1/public/wasy-type1/wasy10.pfb>
-Output written on CV_website.pdf (5 pages, 232709 bytes).
+usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr
+/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/l
+ocal/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/loc
+al/texlive/2024/texmf-dist/fonts/type1/public/marvosym/marvosym.pfb></usr/local
+/texlive/2024/texmf-dist/fonts/type1/public/tex-gyre/qplb.pfb></usr/local/texli
+ve/2024/texmf-dist/fonts/type1/public/tex-gyre/qplr.pfb></usr/local/texlive/202
+4/texmf-dist/fonts/type1/public/tex-gyre/qplri.pfb></usr/local/texlive/2024/tex
+mf-dist/fonts/type1/public/wasy-type1/wasy10.pfb>
+Output written on CV_website.pdf (6 pages, 245035 bytes).
 PDF statistics:
- 221 PDF objects out of 1000 (max. 8388607)
- 193 compressed objects within 2 object streams
- 104 named destinations out of 1000 (max. 500000)
+ 258 PDF objects out of 1000 (max. 8388607)
+ 226 compressed objects within 3 object streams
+ 125 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

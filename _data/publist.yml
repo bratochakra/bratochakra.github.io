@@ -1,32 +1,53 @@
+- title: "Emergent odd response in active chiral films"
+  authors: "Chahal, Seema and Kumar D, Naveen and Chakrabarti, Brato"
+  year: In Review
+  date: "2026-08-22"
+  display: "ArXiv"
+  doi: "https://doi.org/10.48550/arXiv.2607.17717"
+  thumbnail: "/images/papers/22.png"
+  abstract: "Active chiral fluids can support a nondissipative transport coefficient known as odd (or Hall) viscosity. Hydrodynamic descriptions of such fluids typically introduce odd viscosity phenomenologically. How such a response emerges from specific microscopic interactions remains incompletely understood. Here, building on classical shear rheology, we microscopically derive an odd rheological response in active chiral films: thin layers of torque-exerting, elongated particles anchored to a no-slip surface. A canonical realization of such a film is the bacterial carpet, in which flagellated bacteria are tethered head-down to a solid surface while their flagella remain free to spin and inject angular momentum into the surrounding fluid. Using a kinetic theory for the orientational dynamics of these anchored particles, we derive their stress response to an imposed shear flow. We reveal that shear-induced reorientation leads to a flow-aligned polarization and a transverse surface traction from which the odd-viscosity tensor follows in closed form. Numerical solutions of the nonlinear kinetic theory further highlight saturation of the transverse traction at strong shear, driven by shear-induced orientation dynamics -- signaling departure from linear response. Our results demonstrate how odd viscosity can emerge self-consistently as a coarse-grained rheological signature of active fluid-structure interaction and establish active chiral films as a new controllable setting for odd hydrodynamics."
+
+
+- title: "Growing, Buckling, and Swirling: motility from polymerization"
+  authors: "Kumar D, Naveen and Chakrabarti, Brato and Shelley, Michael J"
+  year: In Review
+  date: "2026-08-15"
+  display: "ArXiv"
+  doi: "https://doi.org/10.48550/arXiv.2607.10446"
+  thumbnail: "/images/papers/21.png"
+  abstract: "Locomotion in low-Reynolds-number environments is achieved through a remarkable diversity of strategies, from flagellar rotation and ciliary beating to large-scale body deformations. A distinct and biologically important class of propulsion arises when surface-anchored filaments grow and collectively reorient - as seen in the cellulose-extruding bacterium Acetobacter xylinum and in recent experiments on actin-propelled synthetic colloids inspired by the motility of Listeria monocytogenes - suggesting that polymerization itself is a generic route to self-propulsion. Developing a theoretical framework for this class of problems requires simultaneously resolving filament kinetics, their orientational dynamics, and fluid-structure interactions - all self-consistently coupled to the resulting locomotion. To address this, we formulate a continuum framework in which the active forces driving locomotion emerge self-consistently from filament nucleation, growth, catastrophe, and hydrodynamic interactions. We show analytically that polymerization-induced compressive forces drive a long-wavelength buckling instability, leading to spontaneous symmetry breaking of the filament carpet and large-scale flows. In coupling this framework to a force- and torque-free motile spheroidal particle, a wide variety of behaviors emerge - this includes spontaneous spinning, directed motility, and chiral swimming - whose selection is governed by the spatial patterning of polymerizing filaments. These results establish a general theoretical foundation for motility, driven by collective dynamics of polymerizing filaments and point towards new design principles for synthetic micron-scale swimmers."
+
 - title: "Reversibility, Chaos, and Attractors in Periodically Sheared Elastic Filaments"
   authors: "Bonacci, Francesco and Chakrabarti, Brato and Du Roure, Olivia and Lindner, Anke and Saintillan, David"
-  year: In Review
-  date: "2026-01-05"
-  display: "ArXiv"
+  year: 2026
+  date: "2026-08-01"
+  display: "To Appear in Physicsl Review X"
   doi: "https://doi.org/10.48550/arXiv.2601.00643"
   thumbnail: "/images/papers/20.png"
   abstract: "The dynamics of filaments in flow are central to understanding a wide range of biological and softmatter systems, yet their behavior under time-dependent forcing remains poorly understood. Here, we investigate the long-time dynamics of Brownian inextensible elastic filaments subjected to strong uniform oscillatory shear by combining microfluidic experiments on actin filaments with numerical simulations based on a fluctuating Euler-Bernoulli elastica model in a viscous fluid. As the oscillation period increases, irreversibility emerges from the interplay of flow-induced deformations and thermal noise. This leads to a departure from reversible, deterministic rigid-body dynamics: in this regime, the filaments cycle between nearly straight, flow-aligned conformations at full periods and buckled shapes at half periods. Owing to the time-glide symmetry of the system, two such attracting states in fact coexist with a phase shift of half a period. The system spontaneously selects one, but occasionally switches between them as a result of noise, producing intermittent transitions between apparent order and disorder. This system constitutes an experimentally accessible realization of stochastic symmetry breaking, attractor hopping, and intermittency in a minimal nonequilibrium soft-matter system, with novel implications for the design and control of soft matter systems under time-dependent flows."
+  
+- title: "Density-controlled reversal of collective migration in bacterial aerotaxis"
+  authors: "Ghosh, Dipanjan and Chakrabarti, Brato and Cheng, Xiang"
+  year: 2026
+  date: "2026-07-02"
+  display: "Physical Review Research"
+  doi: "https://doi.org/10.1103/y7l1-288v"
+  thumbnail: "/images/papers/19.png"
+  pdf: "/papers/18.pdf"
+  abstract: "In living matter, chemical gradients that populations generate and reshape often guide collective migration. Bacterial aerotaxis exemplifies this feedback between metabolism and movement, giving rise to unexpected collective behaviors. Here, we combine quantitative experiments, theoretical modeling, and numerical simulations to reveal a striking, density-dependent reversal in the migration of Escherichia coli within self-generated oxygen gradients. At low cell densities, populations retreat from the oxygen-rich interface; at high densities, they move toward it. A biophysical model in which bacteria bias their motion toward an intermediate, metabolically optimal oxygen concentration quantitatively captures this reversal and predicts a critical density at which collective migration ceases, even in the presence of sustained oxygen gradients. These findings reconcile long-standing discrepancies in observations of bacterial aerotaxis and highlight how feedback between metabolism, movement, and environmental shaping governs emergent behaviors in active matter, with potential implications for microbiome ecology."
 
 
 - title: "The physical consequences of sperm gigantism"
   authors: "Imran Alsous, Jasmin and Chakrabarti, Brato and Palmer, Bryce and Shelley, Michael J"
-  year: In Review
-  date: "2025-07-22"
-  display: "ArXiv"
-  doi: "https://doi.org/10.48550/arXiv.2507.14567"
-  highlight: "\n- [How do giant sperm avoid getting tangled up?](https://www.science.org/content/article/how-do-giant-sperm-avoid-getting-tangled)\n- [Here's how fruit flies' giant sperm squeeze into tight spaces](https://www.sciencenews.org/article/giant-sperm-fruit-fly-packing)"
-  highlight_star: false
+  year: 2026
+  date: "2026-06-22"
+  display: "Nature Physics"
+  doi: "https://doi.org/10.1038/s41567-026-03305-4"
+  media_coverage: "/allnews.html#june-2026-sperm-media"
   thumbnail: "/images/papers/18.png"
+  pdf: "/papers/19.pdf"
   abstract: "The male fruit fly produces ~1.8 mm long sperm, thousands of which can be stored until mating in a ~200 micron sac, the seminal vesicle. While the evolutionary pressures driving such extreme sperm (flagellar) lengths have long been investigated, the physical consequences of their gigantism are unstudied. Through high-resolution three-dimensional reconstructions of in vivo sperm morphologies and rapid live imaging, we discovered that stored sperm are organized into a dense and highly aligned state. The packed flagella exhibit system-wide collective 'material' flows, with persistent and slow-moving topological defects; individual sperm, despite their extraordinary lengths, propagate rapidly through the flagellar material, moving in either direction along material director lines. To understand how these collective behaviors arise from the constituents' nonequilibrium dynamics, we conceptualize the motion of individual sperm as topologically confined to a reptation-like tube formed by its neighbors. Therein, sperm propagate through observed amplitude-constrained and internally driven flagellar bending waves, pushing off counter-propagating neighbors. From this conception, we derive a continuum theory that produces an extensile material stress that can sustain an aligned flagellar material. Experimental perturbations and simulations of active elastic filaments verify our theoretical predictions. Our findings suggest that active stresses in the flagellar material maintain the sperm in an unentangled, hence functional state, in both sexes, and establish giant sperm in their native habitat as a novel and physiologically relevant active matter system."
-  
-- title: "Breathe in, breathe out: Bacterial density determines collective migration in aerotaxis"
-  authors: "Ghosh, Dipanjan and Chakrabarti, Brato and Cheng, Xiang"
-  year: In Review
-  date: "2025-04-02"
-  display: "bioRxiv"
-  doi: "10.1101/2025.04.02.646741"
-  thumbnail: "/images/papers/19.png"
-  abstract: "Bacteria navigate their environment by biasing their swimming direction toward beneficial chemicals and away from harmful ones. Out of all the chemicals bacteria respond to, oxygen stands out due to its ubiquitous presence, distinct influence on bacterial metabolism and motility, and historical role in chemotaxis research. However, a coherent understanding of bacterial motility in oxygen gradients, known as aerotaxis, remains elusive, as evidenced by conflicting reports on the migration direction of the model organism Escherichia coli in self-generated oxygen gradients. Here, by combining experiments, simulations, and theory, we provide a unified framework elucidating the fundamental biophysical principle governing bacterial aerotaxis. We track the migration of bacteria in a capillary channel under self-generated oxygen gradients and show that the migration direction depends on the overall bacterial density. At high densities, bacteria migrate toward regions of higher oxygen concentration, whereas at low densities, they move in the opposite direction. We identify a critical bacterial density at which collective migration ceases, despite the presence of oxygen gradients. A kinetic theory, based on the assumption that bacteria seek an optimal oxygen concentration, is then developed to quantitatively explain our experimental findings. We validate this hypothesis by demonstrating the biased movement of individual bacteria in a dense suspension and proposing a signaling pathway that enables this behavior. Thus, by bridging the molecular level understanding of the signaling pathway, the motility of single bacteria in oxygen gradients, and the collective population dynamics shaped by oxygen diffusion and consumption, our study provides a comprehensive understanding of aerotaxis, addressing the long-standing controversy over how bacteria response to non-uniform oxygen distributions pervasive in microbial habitats."
+
 
 - title: "Hydrodynamic instabilities in driven chiral suspensions"
   authors: "Chahal, Seema and Chakrabarti, Brato"

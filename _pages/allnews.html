@@ -16,6 +16,15 @@ permalink: /allnews.html
     margin-top: 0 !important;
     margin-bottom: 0 !important;
   }
+  .news-item .allnews-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px 16px;
+  }
+  .news-item .allnews-links p {
+    display: contents;
+    margin: 0 !important;
+  }
   .news-item a[href*="allnews.html"] {
     color: inherit !important;
     text-decoration: none !important;
@@ -27,7 +36,7 @@ permalink: /allnews.html
 <div class="news-container" style="max-width: 800px; margin: 0 auto; padding: 20px;">  
   {% for news in site.data.news %}
     {% if news.text != nil and news.text != "" %}
-    <div class="news-item" style="margin-bottom: 30px; padding-bottom: 20px; border-bottom: 1px solid #e9ecef;">
+    <div class="news-item"{% if news.anchor %} id="{{ news.anchor }}"{% endif %} style="margin-bottom: 30px; padding-bottom: 20px; border-bottom: 1px solid #e9ecef;">
       <span style="color: #333; font-size: 0.9em; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-weight: 400; display: block; margin-bottom: 10px;">{{ news.date }}</span>
       <div style="font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-weight: 300; color: #666; font-size: 1em; line-height: 1.5; margin-bottom: 0;">
         {{ news.text | markdownify }}
@@ -38,7 +47,7 @@ permalink: /allnews.html
       </div>
       {% endif %}
       {% if news.allnews_text %}
-      <div style="font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-weight: 300; color: #666; font-size: 1em; line-height: 1.5; margin-top: 8px; margin-bottom: 0;">
+      <div class="allnews-links" style="font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-weight: 300; color: #666; font-size: 1em; line-height: 1.5; margin-top: 8px; margin-bottom: 0;">
         {{ news.allnews_text | markdownify }}
       </div>
       {% endif %}
