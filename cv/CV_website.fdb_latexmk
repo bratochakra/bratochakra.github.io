@@ -1,6 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1747032827.15399 "/Users/bratoicts/Documents/codebase/web_icts/bratochakra.github.io/cv/CV_website.tex" "CV_website.pdf" "CV_website" 1747032827.70808 0
-  "/Users/bratoicts/Documents/codebase/web_icts/bratochakra.github.io/cv/CV_website.tex" 1747032826.95987 23757 d1ab75e3b9eee6c7ddd6c9ca290e2dfb ""
+["pdflatex"] 1792478562.1968 "CV_website.tex" "CV_website.pdf" "CV_website" 1792478562.65889 0
   "/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/tex-gyre/q-rm.enc" 1529098226 2409 c64dab22331c83731e970f6020b4448b ""
   "/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/tex-gyre/q-ts1.enc" 1529098226 3124 3813fd4c981d99822890a2861b0d274c ""
   "/usr/local/texlive/2024/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -22,6 +21,7 @@
   "/usr/local/texlive/2024/texmf-dist/fonts/tfm/public/wasy/wasy9.tfm" 1579560596 908 743c39e2976b0d6a1c86f6e64b6dd693 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb" 1248133631 36281 c355509802a035cadc5f15869451dcee ""
   "/usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb" 1248133631 35752 024fb6c41858982481f6968b5fc26508 ""
+  "/usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb" 1248133631 32762 224316ccc9ad3ca0423a14971cfa7fc1 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb" 1248133631 32587 1788b0c1c5b39540c96f5e42ccd6dae8 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb" 1248133631 32716 08e384dc442464e7285e891af9f45947 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/type1/public/marvosym/marvosym.pfb" 1313968873 91705 188e103f30c94f64bce1570c4b989d07 ""
@@ -94,12 +94,12 @@
   "/usr/local/texlive/2024/texmf-dist/tex/latex/xfakebold/xfakebold.sty" 1700602244 2099 dd1d4c88f49e8137295bd2bbef52c6eb ""
   "/usr/local/texlive/2024/texmf-dist/tex/latex/xkeyval/xkeyval.sty" 1655411236 4937 4ce600ce9bd4ec84d0250eb6892fcf4f ""
   "/usr/local/texlive/2024/texmf-dist/web2c/texmf.cnf" 1708706663 41649 5d6ae549fbbcb850a863f69aa41f3d10 ""
-  "/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1713955776.41435 5467645 128b85b7cde5f5edc5cb7f1dd7ff8736 ""
-  "/usr/local/texlive/2024/texmf-var/web2c/pdftex/pdflatex.fmt" 1713955746 8221420 8977752eb805316a58521a1ae899ccee ""
+  "/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1711867814.17033 5467645 128b85b7cde5f5edc5cb7f1dd7ff8736 ""
+  "/usr/local/texlive/2024/texmf-var/web2c/pdftex/pdflatex.fmt" 1711867762 8221424 fcbc7d92f19ed5a8cb8712ff6a251ce7 ""
   "/usr/local/texlive/2024/texmf.cnf" 1710266656 577 e590dabc9e28c5b61546e15f63eebcdf ""
-  "CV_website.aux" 1747032034.14386 32 3985256e7290058c681f74d7a3565a19 "pdflatex"
-  "CV_website.tex" 1747032826.95987 23757 d1ab75e3b9eee6c7ddd6c9ca290e2dfb ""
-  "res.cls" 1747032034.14572 25066 ada7f4329eec7b8bfd20f70da8481a57 ""
+  "CV_website.aux" 1715519708.32344 32 3985256e7290058c681f74d7a3565a19 "pdflatex"
+  "CV_website.tex" 1792478543.31268 28929 092f287882a1229e5d239f63116b3611 ""
+  "res.cls" 1643697170 25066 ada7f4329eec7b8bfd20f70da8481a57 ""
   (generated)
   "CV_website.aux"
   "CV_website.log"

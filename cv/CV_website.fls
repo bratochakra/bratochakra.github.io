@@ -1,8 +1,8 @@
-PWD /Users/bratoicts/Documents/codebase/web_icts/bratochakra.github.io/cv
+PWD /Users/brato/Documents/web_icts/livingfluids/cv
 INPUT /usr/local/texlive/2024/texmf.cnf
 INPUT /usr/local/texlive/2024/texmf-dist/web2c/texmf.cnf
 INPUT /usr/local/texlive/2024/texmf-var/web2c/pdftex/pdflatex.fmt
-INPUT /Users/bratoicts/Documents/codebase/web_icts/bratochakra.github.io/cv/CV_website.tex
+INPUT CV_website.tex
 OUTPUT CV_website.log
 INPUT ./res.cls
 INPUT res.cls
@@ -175,6 +175,7 @@ INPUT /usr/local/texlive/2024/texmf-dist/fonts/tfm/public/tex-gyre/ts1-qplr.tfm
 INPUT /usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/tex-gyre/q-ts1.enc
 INPUT /usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb
 INPUT /usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb
+INPUT /usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb
 INPUT /usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb
 INPUT /usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb
 INPUT /usr/local/texlive/2024/texmf-dist/fonts/type1/public/marvosym/marvosym.pfb

@@ -224,12 +224,13 @@ a .btn-doi:hover {
     </span><br/>
     <span class="paper-journal"><em>{{ publi.display }}</em>, {{ publi.year }}{% if publi.media_coverage %} (<a href="{{ site.url }}{{ site.baseurl }}{{ publi.media_coverage }}">See</a> the media coverage!){% endif %}</span><br/>
     {% if publi.highlight %}<div class="paper-highlight">{% unless publi.highlight_star == false %}<span>★</span> {% endunless %}{{ publi.highlight | markdownify }}</div>{% endif %}
-    {% if publi.abstract %}<button class="btn-doi" data-bs-toggle="collapse" data-bs-target="#{{publi.doi}}">ABSTRACT</button>{% endif %}
+    {% assign abs_id = publi.doi | default: publi.arxiv | slugify %}
+    {% if publi.abstract %}<button class="btn-doi" data-bs-toggle="collapse" data-bs-target="#abs-{{ abs_id }}">ABSTRACT</button>{% endif %}
     {% if publi.arxiv %}<a href="https://arxiv.org/abs/{{ publi.arxiv }}" target="_blank"><button class="btn-arxiv">ARXIV</button></a>{% endif %}
     {% if publi.pdf %}<a href="{{ publi.pdf }}" target="_blank"><button class="btn-pdf">PDF</button></a>{% endif %}
     {% if publi.doi %}<a href="http://dx.doi.org/{{ publi.doi }}" target="_blank"><button class="btn-doi">DOI</button></a>{% endif %}
     {% if publi.abstract %}
-    <div id="{{publi.doi}}" class="collapse">
+    <div id="abs-{{ abs_id }}" class="collapse">
       <div class="well-abstract">
         <p>{{publi.abstract}}</p>
       </div>

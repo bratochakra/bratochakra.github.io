@@ -20,7 +20,7 @@ Our research is driven by the curiosity to explore problems in biological fluid 
 
 - **Flagellar Mechanics**: Flagellar beating patterns, role of molecular motors in collective beating, and flagellar oscillations in complex fluid environments
 
-- **Soft Materials**: Using fluid-structure interaction phemomena to design novel soft materials and meta-fluids with unique properties
+- **Soft Materials**: Using fluid-structure interaction phenomena to design novel soft materials and meta-fluids with unique properties
 
 - **Collective Behavior**: Modeling the dynamics and organization of fish schools, chiral suspensions, and non-reciprocal oscillators
 

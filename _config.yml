@@ -17,6 +17,12 @@ include:
   - .htaccess
   - _pages
 
+exclude:
+  - livingfluids
+  - test
+  - README.md
+  - CLAUDE.md
+
 sass:
   sass_dir: _sass
 
