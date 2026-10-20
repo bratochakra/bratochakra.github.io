@@ -17,7 +17,7 @@ bundle exec jekyll build     # same build CI runs; output to _site/ (gitignored)
 - These commands were checked locally with Ruby 3.4.1 and Bundler 2.6.8. Both serve and build succeed and every nav page returns 200.
 - Expect a large number of Sass deprecation warnings from the vendored Bootstrap 3 SCSS. They are pre-existing and harmless. Treat a build as broken only if Liquid or YAML errors appear.
 - There are no tests or linters. To verify a change, run `bundle exec jekyll build` and look at the page in `serve`.
-- Deploy: pushing to `main` runs `.github/workflows/jekyll.yml` (Ruby 3.4.1, `bundle exec jekyll build`, upload `_site`, `actions/deploy-pages`). The custom domain is in `CNAME`. Anything committed is live after the push.
+- Deploy: pushing to `main` runs `.github/workflows/jekyll.yml` (Ruby 3.4.1, `bundle exec jekyll build`, upload `_site`, `actions/deploy-pages`). The site is served at https://bratochakra.github.io. There's no custom domain; with an Actions deploy, a domain would be set in the repo's Pages settings, not in a `CNAME` file. Anything committed is live after the push.
 
 ## Layouts, includes, pages
 
