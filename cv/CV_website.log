@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.3.31)  20 OCT 2026 12:12
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.3.31)  23 OCT 2026 00:56
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -486,20 +486,13 @@ etachronal
  []
 
 [2] [3] [4]
-Underfull \hbox (badness 10000) in paragraph at lines 305--307
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 313--315
-
- []
-
 LaTeX Font Info:    Trying to load font information for TS1+qpl on input line 3
-26.
-(/usr/local/texlive/2024/texmf-dist/tex/latex/tex-gyre/ts1qpl.fd
+31.
+ (/usr/local/texlive/2024/texmf-dist/tex/latex/tex-gyre/ts1qpl.fd
 File: ts1qpl.fd 2009/09/25 v1.2 font definition file for TS1/qpl
-) [5{/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/tex-gyre/q-ts1.enc}] [6
+)
+[5{/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/tex-gyre/q-ts1.enc}]
+[6
 
 
 
@@ -510,9 +503,9 @@ L3 programming layer <2024-02-20>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 11627 strings out of 474116
- 186280 string characters out of 5743682
- 1945187 words of memory out of 5000000
+ 11628 strings out of 474116
+ 186288 string characters out of 5743682
+ 1947187 words of memory out of 5000000
  33715 multiletter control sequences out of 15000+600000
  581669 words of font info for 56 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -527,10 +520,10 @@ al/texlive/2024/texmf-dist/fonts/type1/public/marvosym/marvosym.pfb></usr/local
 ve/2024/texmf-dist/fonts/type1/public/tex-gyre/qplr.pfb></usr/local/texlive/202
 4/texmf-dist/fonts/type1/public/tex-gyre/qplri.pfb></usr/local/texlive/2024/tex
 mf-dist/fonts/type1/public/wasy-type1/wasy10.pfb>
-Output written on CV_website.pdf (6 pages, 245375 bytes).
+Output written on CV_website.pdf (6 pages, 245574 bytes).
 PDF statistics:
- 262 PDF objects out of 1000 (max. 8388607)
- 230 compressed objects within 3 object streams
- 127 named destinations out of 1000 (max. 500000)
+ 263 PDF objects out of 1000 (max. 8388607)
+ 231 compressed objects within 3 object streams
+ 128 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

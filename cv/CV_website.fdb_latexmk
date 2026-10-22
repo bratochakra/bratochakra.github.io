@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1792478562.1968 "CV_website.tex" "CV_website.pdf" "CV_website" 1792478562.65889 0
+["pdflatex"] 1792697187.92672 "CV_website.tex" "CV_website.pdf" "CV_website" 1792697188.40792 0
   "/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/tex-gyre/q-rm.enc" 1529098226 2409 c64dab22331c83731e970f6020b4448b ""
   "/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/tex-gyre/q-ts1.enc" 1529098226 3124 3813fd4c981d99822890a2861b0d274c ""
   "/usr/local/texlive/2024/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -98,7 +98,7 @@
   "/usr/local/texlive/2024/texmf-var/web2c/pdftex/pdflatex.fmt" 1711867762 8221424 fcbc7d92f19ed5a8cb8712ff6a251ce7 ""
   "/usr/local/texlive/2024/texmf.cnf" 1710266656 577 e590dabc9e28c5b61546e15f63eebcdf ""
   "CV_website.aux" 1715519708.32344 32 3985256e7290058c681f74d7a3565a19 "pdflatex"
-  "CV_website.tex" 1792478543.31268 28929 092f287882a1229e5d239f63116b3611 ""
+  "CV_website.tex" 1792697187.86187 29132 43b3c68aaf67285251c3ca1c89dfe161 ""
   "res.cls" 1643697170 25066 ada7f4329eec7b8bfd20f70da8481a57 ""
   (generated)
   "CV_website.aux"
